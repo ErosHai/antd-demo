@@ -111,7 +111,7 @@ export default function Content() {
 					<div style={style}> col-8</div>
 				</Col>
 			</Row>
-			<Row gutter={8}>
+			<Row gutter={16}>
 				<Col span={8}>
 					<div style={style}>col-8</div>
 				</Col>
