@@ -32,7 +32,6 @@ export default function Content() {
 				<Text>Text</Text>
 				<Text mark>Text mark</Text>
 				<Text strong>Text strong</Text>
-				<Text code> {`count: ${count}`} </Text>
 				<Text code>Text code</Text>
 				<Text type="success">Text success</Text>
 				<Paragraph>
@@ -70,17 +69,18 @@ export default function Content() {
 					icon={<SearchOutlined />}
 				></Button>
 			</Tooltip>
+			<Title level={3}> {`count: ${count}`} </Title>
 			<Button
 				type="default"
 				onClick={() => {
 					setCount(count + 1)
 				}}
-				block
 				ghost
 				danger
 			>
 				increment
 			</Button>
+			<Button block>default Button</Button>
 			<Button type="primary" danger icon={<PoweroffOutlined />}>
 				primary
 			</Button>

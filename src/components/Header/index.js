@@ -10,7 +10,7 @@ export default class Head extends Component {
 			<div>
 				<Layout>
 					<Header>Header</Header>
-					<Layout style={{ height: '600px' }}>
+					<Layout>
 						<Sider>Sider</Sider>
 						<Layout>
 							<Breadcrumb>
